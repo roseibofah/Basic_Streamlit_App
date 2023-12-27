@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Area of a circle calculation App- By Richard O. Bofah'")
+st.title("Area of a circle calculation App -- 'By Richard O. Bofah'")
 #Area of circle
 from PIL import Image
 img=Image.open("formula.jpg")
