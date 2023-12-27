@@ -36,7 +36,7 @@ else:
 if(st.button('Calculate Area of circle')):
  
     # print the BMI INDEX
-    st.text("Hnece, Area of the Circle is {}.".format(Areas_Circle))
+    st.text("Hence, Area of the Circle is {}.".format(Areas_Circle))
     
 
 
