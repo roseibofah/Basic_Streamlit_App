@@ -67,4 +67,5 @@ if(st.button('Calculate BMI')):
         st.warning("Overweight")
     elif(bmi >= 30):
         st.error("Extremely Overweight/OR Obese")
+     st.write("See WHO website for BMI and Health Tips: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations")
 
