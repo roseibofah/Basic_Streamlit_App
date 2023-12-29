@@ -10,7 +10,8 @@
 import streamlit as st
  
 # give a title to our app
-st.title("Welcome to BMI Calculator -By Richard O. Bofah' ")
+st.title("Know your Body Mass Index -BMI")
+st.subheader("By Dr. Richard O. Bofah -- Economist and Data Scientist")
  
 # TAKE WEIGHT INPUT in kgs
 weight = st.number_input("Enter your weight (in kgs)")
