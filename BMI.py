@@ -64,12 +64,24 @@ if(st.button('Calculate BMI')):
     elif(bmi >= 16 and bmi < 18.5):
         st.warning("You are Underweight")
     elif(bmi >= 18.5 and bmi < 25):
-        st.success("Healthy")
+        st.success("You are Healthy/Normal")
     elif(bmi >= 25 and bmi < 30):
-        st.warning("Pre-obesity/Overweight")
+        st.warning("Your status is Pre-obesity/Overweight")
     elif(bmi >= 30):
-        st.error("Obese")
+        st.error(" You are Obese")
     st.write("See WHO website for BMI and Health Tips: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
