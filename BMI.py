@@ -13,7 +13,7 @@ import streamlit as st
 st.title("Know Your Body Mass Index - BMI")
 st.subheader("By Dr. Richard O. Bofah -- Economist and Data Scientist")
 
-st.text("All you need: Your Wight in kg and height in any format") 
+st.text("All you need: Wight in kg & Height") 
 # TAKE WEIGHT INPUT in kgs
 weight = st.number_input("Enter your weight (in kgs)")
 
