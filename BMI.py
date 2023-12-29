@@ -60,7 +60,7 @@ if(st.button('Calculate BMI')):
  
     # give the interpretation of BMI index
     if(bmi < 18.5):
-        st.warning("This is your are Underweight")
+        st.warning("This means you are Underweight")
     elif(bmi >= 18.5 and bmi < 25):
         st.success("This means you are Healthy/Normal")
     elif(bmi >= 25 and bmi < 30):
