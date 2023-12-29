@@ -13,7 +13,7 @@ import streamlit as st
 st.title("Know Your Body Mass Index - BMI")
 st.subheader("By Dr. Richard O. Bofah -- Economist and Data Scientist")
 
-st.text("All you need: Wight in kg & Height") 
+st.text("All you need: Weight in kg & Height") 
 # TAKE WEIGHT INPUT in kgs
 weight = st.number_input("Enter your weight (in kgs)")
 
@@ -70,4 +70,6 @@ if(st.button('Calculate BMI')):
     elif(bmi >= 30):
         st.error("Obese")
     st.write("See WHO website for BMI and Health Tips: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations")
+
+
 
